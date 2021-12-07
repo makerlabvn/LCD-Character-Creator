@@ -28,7 +28,7 @@ ArduinoI2CTemplate += "#include &lt;Wire.h&gt;\n";
 ArduinoI2CTemplate += "#include &lt;LiquidCrystal_I2C.h&gt;\n";
 ArduinoI2CTemplate += "\n";
 ArduinoI2CTemplate += "// Set the LCD address to 0x27 in PCF8574 by NXP and Set to 0x3F in PCF8574A by Ti\n";
-ArduinoI2CTemplate += "LiquidCrystal_I2C lcd(0x3F, 16, 2);\n";
+ArduinoI2CTemplate += "LiquidCrystal_I2C lcd(0x27, 16, 2);\n";
 ArduinoI2CTemplate += "\n";
 ArduinoI2CTemplate += "byte customChar[] = {\n";
 ArduinoI2CTemplate += "  {DataX0},\n";
